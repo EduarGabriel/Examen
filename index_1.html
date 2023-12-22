@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <nav>
+        <div class="user-section" id="nombreUsuario">
+        </div>
+    </nav>
+    <header>
+
+        <h1>Tienda de Productos de Seguridad</h1>
+
+        <div class="container-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"></path>
+            </svg>
+            <div class="count-products">
+                <span id="contador-productos">0</span>
+            </div>
+
+            <div class="container-cart-products hidden-cart cart-product">
+                <ul class="cart-product-list"></ul>
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar" id="total-pagar">$0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="img/cerraduras.jpg" alt="producto" />
+            </figure>
+            <div class="info-product">
+                <h2>Cerraduras de Seguridad</h2>
+                <p class="price" data-price="10">$10</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="img/camara.jpg" alt="producto" />
+            </figure>
+            <div class="info-product">
+                <h2>Cámara de Seguridad</h2>
+                <p class="price" data-price="10">$10</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="img/sensor_humo.jpg" alt="producto" />
+            </figure>
+            <div class="info-product">
+                <h2>Sensor de Humo</h2>
+                <p class="price" data-price="10">$10</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="img/botiquin.jpg" alt="producto" />
+            </figure>
+            <div class="info-product">
+                <h2>Botiquín de Primeros Auxilios</h2>
+                <p class="price" data-price="25">$25</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="img/sensor.png" alt="producto" />
+            </figure>
+            <div class="info-product">
+                <h2>Alarma contra intrusos</h2>
+                <p class="price" data-price="40">$40</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="img/linterna.jpg" alt="producto" />
+            </figure>
+            <div class="info-product">
+                <h2>Linterna de Emergencia</h2>
+                <p class="price" data-price="20">$20</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="img/extintor.jpg" alt="producto" />
+            </figure>
+            <div class="info-product">
+                <h2>Extintor de Emergencia</h2>
+                <p class="price" data-price="50">$50</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="img/cajaseguridad.jpg" alt="producto" />
+            </figure>
+            <div class="info-product">
+                <h2>Caja de Seguridad</h2>
+                <p class="price" data-price="90">$90</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="img/timbre.jpg" alt="producto" />
+            </figure>
+            <div class="info-product">
+                <h2>Timbre con camara Integrada</h2>
+                <p class="price" data-price="120">$120</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
